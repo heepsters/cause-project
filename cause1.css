@@ -1,0 +1,52 @@
+.main{
+	width: 100%;
+	height: 570px;
+}
+
+.main img{
+	width: 100%;
+	height: 570px;
+	border-radius: 15px;
+	border-bottom: 1px white solid;
+}
+
+body{
+	background-color: #aacfd0;
+	margin: 0px;
+}
+
+.box1{
+	float: left;
+}
+
+.box2{
+	float: left;
+}
+
+.box3{
+	float: left;
+}
+
+.map{
+	float: left;
+}
+
+.news{
+	float: left;
+}
+
+.care{
+	float: left;
+}
+
+.reach{
+	float: left;
+}
+
+.mission{
+	float: left;
+}
+
+.support{
+	float: left;
+}
