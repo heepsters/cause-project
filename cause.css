@@ -2,23 +2,54 @@
 
 body {
 	margin: 0;
-	
+	background-color: white;
 	font-family: Raleway, sans-serif;
 }
 
+.header {
+	height: 800px;
+	width: auto;
+}
 .header img {
 	width: 100%;
-	height: 100%;
+	height: auto;
 	background-size: cover;
 }
 
-.navbar {
+.navbar1 {
 	width: 100%;
 	height: 120px;
-	background-color: #333;
+	background-color: #aacfd0;
 	position: fixed;
 	top: 0;
 	opacity: .95
+}
+.navbar1 h1:hover {
+	color: #333;
+}
+
+.navbar2 {
+	width: 100%;
+	height: 120px;
+	background-color: #F29DF1;
+	position: fixed;
+	top: 0;
+	opacity: .95
+}
+.navbar2 h1:hover {
+	color: #333;
+}
+
+.navbar3 {
+	width: 100%;
+	height: 120px;
+	background-color: #F68657;
+	position: fixed;
+	top: 0;
+	opacity: .95
+}
+.navbar3 h1:hover {
+	color: #333;
 }
 
 .fghlogo img {
@@ -33,10 +64,12 @@ body {
 	float: left;
 	margin-left: 20px;
 	margin-top: 20px;
+	transition: all .2s ease-in-out;
 }
 
-.socialicons a:hover {
-	transform: scale(1:1);
+.socialicons img:hover {
+	width: 90px;
+	height: auto;
 }
 
 .cause1 {
@@ -78,7 +111,7 @@ body {
 	height: 80px;
 	background-color: none;
 	position: fixed;
-	color: #ffffcc;
+	color: #aacfd0;
 	border-radius: 5px;
 	top: 75%;
 	right: 3%;
@@ -103,8 +136,4 @@ body {
 .footer p{
 	height: 100%;
 	margin:0;
-}
-
-.purple {
-	color: #E3A2F0;
 }
