@@ -1,5 +1,4 @@
-@import ("https://fonts.googleapis.com/css?family=Raleway")
-
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 
 body {
 	margin: 0;
@@ -45,7 +44,7 @@ body {
 	text-align: center;
 }
 
-	a:hover {
+.donatebutton a:hover {
 	background-color: white;
 }
 
