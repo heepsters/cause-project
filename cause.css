@@ -152,9 +152,9 @@ body {
 .infobar img {
 	width: 50%;
 	height: 100%;
-
 	float: left;
 }
+
 .feedme2 {
 	width: 50%;
 	height: 100%;
@@ -164,11 +164,18 @@ body {
 
 .feedme2 h1 {
 	float: left;
-	margin: 20px;
+	margin-left: 30px;
+	margin-top: 23px;
 	font-size: 30px;
 	text-decoration: none;
 	color: #666;
 
+}
+
+.feedme2 p {
+	margin: 20px;
+	clear: left;
+	font-size: 17px;
 }
 
 .donatebutton {
