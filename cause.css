@@ -1,11 +1,9 @@
-@import ("https://fonts.googleapis.com/css?family=Raleway")
-
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 
 body {
 	margin: 0;
-	background-color: black;
+	
 	font-family: Raleway, sans-serif;
-
 }
 
 .header img {
@@ -14,6 +12,48 @@ body {
 	background-size: cover;
 }
 
+.navbar {
+	width: 100%;
+	height: 120px;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	opacity: .95
+}
+
+.fghlogo img {
+	width: 120px;
+	height: 120px;
+	float: left;
+}
+
+.socialicons img {
+	width: 70px;
+	height: auto;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.socialicons a:hover {
+	transform: scale(1:1);
+}
+
+.cause1 {
+	float: right;
+}
+
+.cause1 a {
+	text-decoration: none;
+}
+
+.cause1 h1 {
+	color: white;
+	font-size: 20px;
+	margin-top: 47px;
+	margin-right: 50px;
+
+}
 .body {
 	width: 100%;
 	height: 900px;
@@ -26,10 +66,10 @@ body {
 	width: 330px;
 	height: 80px;
 	background-color: #333;
-	position: absolute;
+	position: fixed;
 	opacity: .5;
 	border-radius: 5px;
-	top: 80%;
+	top: 75%;
 	right: 3%;
 }
 
@@ -37,23 +77,34 @@ body {
 	width: 330px;
 	height: 80px;
 	background-color: none;
-	position: absolute;
+	position: fixed;
 	color: #ffffcc;
 	border-radius: 5px;
-	top: 80%;
+	top: 75%;
 	right: 3%;
 	text-align: center;
 }
 
-	a:hover {
-	background-color: white;
+.donatebutton1:hover {
+	background-color: #00ff00;
+	color: #333;
 }
-
 
 .footer {
 	width: 100%;
-	height: 90px;
-	background-color: #333;
+	height: 10px;
+	background-color: black;
+	color: white;
 	margin: 0;
 	float: left;
+	text-align: center;
+	padding: 3% 0;
+}
+.footer p{
+	height: 100%;
+	margin:0;
+}
+
+.purple {
+	color: #E3A2F0;
 }
