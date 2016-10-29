@@ -99,7 +99,7 @@ body {
 
 .infobox {
 	width: 29%;
-	height: 90%;
+	height: 400px;
 	background-color: white;
 	padding: 10px 0px;
 	text-align: center;
@@ -107,8 +107,6 @@ body {
 	display: inline-block;
 	border-radius: 3px;
 	margin: 20px 2.1%;
-
-
 }
 
 .infobox img {
@@ -118,10 +116,7 @@ body {
 }
 
 .infobox p {
-	padding: 20px 40px;
-}
-.twobox {
-
+	padding: 20px 20px;
 }
 
 .infobar {
@@ -130,6 +125,28 @@ body {
 	background-color: white;
 	margin: 0;
 	float: left;
+}
+
+.infobar img {
+	width: 50%;
+	height: 100%;
+
+	float: left;
+}
+.feedme2 {
+	width: 50%;
+	height: 100%;
+	border-radius: 3px;
+	float: left;
+}
+
+.feedme2 h1 {
+	float: left;
+	margin: 20px;
+	font-size: 30px;
+	text-decoration: none;
+	color: #666;
+
 }
 
 .donatebutton {
@@ -168,7 +185,7 @@ body {
 	margin: 0;
 	float: left;
 	text-align: center;
-	padding: 3% 0;
+	padding: 2% 0;
 }
 .footer p{
 	height: 100%;
