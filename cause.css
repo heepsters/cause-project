@@ -2,23 +2,64 @@
 
 body {
 	margin: 0;
-	
+	background-color: #aacfd0;
 	font-family: Raleway, sans-serif;
+}
+
+.header {
+	width: 100%;
+	height: auto;
 }
 
 .header img {
 	width: 100%;
-	height: 100%;
+	height: auto;
 	background-size: cover;
 }
 
-.navbar {
+.header iframe {
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+}
+
+.navbar1 {
 	width: 100%;
 	height: 120px;
-	background-color: #333;
+	background-color: #ff6666;
 	position: fixed;
 	top: 0;
-	opacity: .95
+	opacity: .95;
+	box-shadow: 0 10px 6px -9px #333;
+}
+.navbar1 h1:hover {
+	color: #333;
+}
+
+.navbar2 {
+	width: 100%;
+	height: 120px;
+	background-color: #F29DF1;
+	position: fixed;
+	top: 0;
+	opacity: .99;
+	box-shadow: 0 10px 6px -9px #333;
+}
+.navbar2 h1:hover {
+	color: #333;
+}
+
+.navbar3 {
+	width: 100%;
+	height: 120px;
+	background-color: #F68657;
+	position: fixed;
+	top: 0;
+	opacity: .95;
+	box-shadow: 0 10px 6px -9px #333;
+}
+.navbar3 h1:hover {
+	color: #333;
 }
 
 .fghlogo img {
@@ -33,10 +74,13 @@ body {
 	float: left;
 	margin-left: 20px;
 	margin-top: 20px;
+	transition: all .2s ease-in-out;
 }
 
-.socialicons a:hover {
-	transform: scale(1:1);
+.socialicons img:hover {
+	width: 90px;
+	height: auto;
+	margin: 14px 10px 20px 10px;
 }
 
 .cause1 {
@@ -56,10 +100,91 @@ body {
 }
 .body {
 	width: 100%;
-	height: 900px;
-	background-color: black;
+	height: 500px;
+	background-color: #aacfd0;
+	margin: 0;
+	display: inline;
+}
+
+.infobox {
+	width: 29%;
+	height: 400px;
+	background-color: white;
+	padding: 10px 0px;
+	text-align: center;
+	float: left;
+	display: inline-block;
+	border-radius: 3px;
+	margin: 20px 2.1%;
+}
+
+.infobox img {
+	width: 80%;
+	height: auto;
+	border-radius: 3px;
+}
+
+.infobox p {
+	padding: 20px 40px;
+}
+
+.infobox1 {
+	width: 29%;
+	height: 400px;
+	background-color: white;
+	padding: 10px 0px;
+	text-align: center;
+	float: left;
+	display: inline-block;
+	border-radius: 3px;
+	margin: 20px 2.1%;
+}
+
+.infobox1 img {
+	width: 33%;
+	margin-top: 15%;
+	height: auto;
+	border-radius: 3px;
+}
+
+.infobox1 p {
+	padding: 20px 35px;
+}
+.infobar {
+	width: 100%;
+	height: 500px;
+	background-color: white;
 	margin: 0;
 	float: left;
+}
+
+.infobar img {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.feedme2 {
+	width: 50%;
+	height: 100%;
+	border-radius: 3px;
+	float: left;
+}
+
+.feedme2 h1 {
+	float: left;
+	margin-left: 20px;
+	margin-top: 23px;
+	font-size: 30px;
+	text-decoration: none;
+	color: #666;
+
+}
+
+.feedme2 p {
+	margin: 20px;
+	clear: left;
+	font-size: 17px;
 }
 
 .donatebutton {
@@ -69,7 +194,7 @@ body {
 	position: fixed;
 	opacity: .5;
 	border-radius: 5px;
-	top: 75%;
+	top: 83%;
 	right: 3%;
 }
 
@@ -78,9 +203,9 @@ body {
 	height: 80px;
 	background-color: none;
 	position: fixed;
-	color: #ffffcc;
+	color: #aacfd0;
 	border-radius: 5px;
-	top: 75%;
+	top: 83%;
 	right: 3%;
 	text-align: center;
 }
@@ -90,21 +215,66 @@ body {
 	color: #333;
 }
 
+.footer1 {
+	width: 100%;
+	height: 100%;
+	background-color: #333;
+	color: white;
+	margin: 0;
+	float: left;
+	text-align: center;
+	padding: 20px 0;
+
+}
+
+.footer1 h1 {
+	padding: 0 50px;
+}
+
+.footer1 p { 
+	height: 100%;
+	margin:0;
+	font-size: 15px;
+	padding: 20px 30px;
+}
+
+.donatebox {
+	width: 50%;
+	height: 100%;
+	margin: 0 auto;
+	background-color: white;
+	color: #333;
+	padding: 152.345px 0;
+	float: left;
+
+}
+.picbox {
+	height: 100%;
+}
+.picbox img {
+	width: 50%;
+	height: 100%;
+
+	float: right;
+}
+.donatebox:hover {
+	background-color: #00ff00;
+	color: #333;
+}
+
 .footer {
 	width: 100%;
-	height: 10px;
+	height: auto;
 	background-color: black;
 	color: white;
 	margin: 0;
 	float: left;
 	text-align: center;
-	padding: 3% 0;
-}
-.footer p{
-	height: 100%;
-	margin:0;
+	padding: 20px 0;
 }
 
-.purple {
-	color: #E3A2F0;
+.footer p { 
+	height: 100%;
+	margin:0;
+	font-size: 15px;
 }
